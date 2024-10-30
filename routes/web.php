@@ -13,3 +13,7 @@ Route::get('/post', function () {
 Route::get('/keto', function(){
     return view('post');
 });
+
+Route::get('/post/firstpost', function(){
+    return view('firstpost');
+});

@@ -10,5 +10,10 @@
     <h1>
         This is first line
     </h1>
+
+    <a href="/post">This is post</a>
+
+
+
 </body>
 </html>

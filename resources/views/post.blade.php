@@ -1,3 +1,5 @@
 <h1>
-    Thsi Coming from post page
+    This is Coming from post page
 </h1>
+
+<a href="/post/firstpost">First post</a>
