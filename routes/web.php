@@ -22,6 +22,11 @@ Route::get('/post/{id}', function(string $id){
     return "<h1>This is values ". $id."  </h1>";
 });
 
-Route::get('/{id}', function($if){
-    return "<p>This is new line of values ". $if ." </p>";
+// Route::get('/{id}', function($if){
+//     return "<p>This is new line of values ". $if ." </p>";
+// });
+
+
+Route::get('/path', function(){
+    return view('aboutus');
 });
